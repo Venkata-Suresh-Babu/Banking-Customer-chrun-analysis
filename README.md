@@ -1,4 +1,4 @@
-### 🏦 Banking Customer Churn Analysis
+# 🏦 Banking Customer Churn Analysis
 # Project Overview
 
 This project analyzes customer churn behavior in the banking sector, identifying patterns across demographics, credit profiles, and geography.
@@ -6,6 +6,8 @@ This project analyzes customer churn behavior in the banking sector, identifying
 The objective is to understand who is leaving, why they are leaving, and what differentiates churned customers from retained ones.
 
 The analysis is based on a dataset of 10,000 customers and focuses on uncovering actionable insights that can support retention strategies
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/282710e9-349d-4d4a-866e-06f8ac21d49d" />
 
 
 ## 🎯 Objective
