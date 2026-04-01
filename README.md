@@ -1,45 +1,121 @@
-### Bank Customer Churn Analysis
+### 🏦 Banking Customer Churn Analysis
+# Project Overview
 
-This project provides a data-driven exploration of customer attrition (churn) within a banking institution. By analyzing a dataset of 10,000 customers, the study identifies key demographic and financial factors—such as age, gender, geography, and credit score—that influence a customer's decision to leave or stay with the bank.
+This project analyzes customer churn behavior in the banking sector, identifying patterns across demographics, credit profiles, and geography.
 
-The primary goal is to derive actionable insights that can help financial institutions improve retention strategies and understand high-risk customer segments.
+The objective is to understand who is leaving, why they are leaving, and what differentiates churned customers from retained ones.
 
-**🛠️ Tech Stack**
+The analysis is based on a dataset of 10,000 customers and focuses on uncovering actionable insights that can support retention strategies
 
-Language: Python 
 
-Environment: Google Colab 
+## 🎯 Objective
+Identify key factors influencing customer churn
+Analyze demographic and financial patterns
+Compare behavior between churned and active customers
+Highlight risk segments for targeted retention
 
-## Libraries: 
-**Pandas:** For data manipulation and cleaning.
 
-**Matplotlib & Seaborn:** For advanced data visualization and trend analysis.
+## 🧰 Tools & Technologies
+Python (Google Colab)
+Libraries: Pandas, Matplotlib, Seaborn
+Dataset Source: Kaggle
 
-### 📊 Key Insights & Findings
-. 
-### 1. Customer Demographics
 
-**Age Distribution:** The most prevalent age group in the customer base is 30-40 years.
+# 📊 Key Insights
+1. Customer Distribution & Churn Rate
 
-**Geographic Footprint:** France accounts for 50% of the customer base, while Germany and Spain each represent 25%.
+**Total customers:** 10,000
+**Customers exited:** 2,037
+**Active customers:** 7,963
 
-**Gender Balance:** The majority of the 10,000 customers are active, with a notably higher proportion of male customers compared to females.
+**Insight:**
+Churn rate is relatively low, but still significant enough to impact long-term revenue.
 
-### 2. Churn Metrics
-**Overall Status:** Out of 10,000 customers, 7,963 remain active while 2,037 have exited.
-**Gender Disparity:** While there is a higher proportion of male customers overall, female customers have a significantly higher churn rate of 55.92%, compared to 44.08% for males.
-**Credit Profile:** A significant portion of customers have credit scores between 600 and 700 On average, male customers tend to have higher credit scores than female customers.
 
-### 3. Financial Behavior
-**Credit Cards:** 55% of credit card holders are male, compared to 45% who are female.
-**Earnings:** Male customers generally occupy higher salary brackets than female customers.
-**Risk Factors:** A considerable number of customers who exited exhibit below-average credit scores.
+<img width="427" height="567" alt="image" src="https://github.com/user-attachments/assets/7aa384de-a739-4104-a2dc-50ec4938ca8c" />
 
-## 📈 Visualizations Included
-**Histograms:** Age and Credit Score frequency distributions.
-**Bar Charts:** Churn counts by Gender, Credit Score category, and Salary Slab.
-**Pie Charts:** Geographic distribution and Churn percentage by Gender.
 
-## 🚀 Conclusion
-The analysis reveals that while the bank maintains a 79.6% retention rate, there is a clear demographic gap. 
-Retention strategies should specifically target female customers and those with below-average credit scores to further reduce the churn rate.
+# 2. Age & Credit Profile
+
+Most customers fall in the 30–40 age group
+Majority have credit scores in the 600–700 range
+
+**Interpretation:**
+The customer base is largely mid-career individuals with average credit reliability.
+
+<img width="447" height="359" alt="image" src="https://github.com/user-attachments/assets/ec9fb231-f934-4c63-b658-26724c06764f" />
+
+<img width="508" height="407" alt="image" src="https://github.com/user-attachments/assets/e4b1db88-cf87-4fdd-84d5-67c46ca92889" />
+
+
+# 3. Gender-Based Churn Behavior
+
+Female churn rate: 55.92%
+Male churn rate: 44.08%
+
+**Key observation:**
+Although males dominate the overall customer base, female customers churn at a higher rate.
+
+<img width="421" height="438" alt="image" src="https://github.com/user-attachments/assets/578c8fb3-fce8-4c71-877b-99411f601a26" />
+
+<img width="332" height="419" alt="image" src="https://github.com/user-attachments/assets/4cc940ad-c24b-4316-8099-0cc854cf8417" />
+
+
+# 4. Financial Behavior by Gender
+
+Male customers:
+Have higher credit scores
+55% are credit card holders
+Fall into higher salary brackets
+
+**Insight:**
+Higher financial stability among male customers may contribute to lower churn rates.
+
+<img width="365" height="519" alt="image" src="https://github.com/user-attachments/assets/70815002-5fc5-4a7c-a2c2-cccfe8223a1f" />
+
+# 5. Geographic Distribution
+
+**France:** ~50% of customer base
+**Germany:** ~25%
+**Spain:** ~25%
+
+**insight:**
+France shows the highest concentration across salary segments.
+
+<img width="403" height="370" alt="image" src="https://github.com/user-attachments/assets/8a5ba184-d26d-4563-bf11-19ee72e6330e" />
+
+# 6. Salary & Credit Risk Patterns
+
+Largest customer segment earns between ₹85,000 – ₹200,000
+Many customers fall into below-average credit score categories
+
+**Implication:**
+Customers with weaker credit profiles may represent higher churn risk.
+
+<img width="598" height="427" alt="image" src="https://github.com/user-attachments/assets/3d1e0a70-adf1-47bb-add1-7d57217a49ff" />
+
+<img width="589" height="437" alt="image" src="https://github.com/user-attachments/assets/09b0bda6-1b05-4543-afae-dc5b6d14f008" />
+
+
+# 📈 What This Project Shows
+Churn is not random — it is pattern-driven
+Gender plays a key role in churn behavior
+Financial strength (credit score + salary) influences retention
+Certain regions (like France) dominate customer distribution, requiring localized strategies
+
+
+# 🧠 Business Implications
+Focus retention efforts on female customers, especially in mid-income segments
+Improve engagement strategies for customers with average or below-average credit scores
+Use geographic segmentation to tailor customer experience
+Strengthen value propositions for mid-age (30–40) customers
+
+
+# 🚀 Why This Project Stands Out
+Moves beyond descriptive stats to highlight risk segments
+Connects demographics → financial behavior → churn
+Uses clear visual storytelling backed by structured analysis
+Practical insights that can directly inform banking retention strategies
+
+
+###                                                              Thank you 
